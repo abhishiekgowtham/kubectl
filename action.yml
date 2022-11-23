@@ -22,6 +22,6 @@ inputs:
     description: "kubectl command to run, without the kubectl, e.g. `get pods`"
     required: true
   aws_iam_auth_version:
-    description: "aws iam authenticator version, e.g. `v0.5.0`, defaults to 0.5.9"
+    description: "aws iam authenticator version, e.g. `v0.5.0`, defaults to 0.5.10"
     required: false
-    default: 0.5.9
+    default: 0.5.10
